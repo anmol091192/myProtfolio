@@ -12,41 +12,25 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>
+                        Email Feedback Application
+                    </CardTitle>
                     <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <h5>Technologies used MongoDB, React, NodeJS, Express, RabbitMQ, ES6 JavaScript, Materialize-CSS.</h5>
+                    <p>
+                        This project is more of a BackEnd project then a FrontEnd as it involves the following process:<br/>
+                        <li>Authentication using google Auth : Using PassportJS and Google-Auth </li>
+                        <li>Payment method using StripeJS</li>
+                        <li>Email delivery using SendGrid</li>
+                    </p>
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
+                        <a href="https://github.com/anmol091192/Email-Notification-system"  rel="noopener noreferrer" target="_blank">
+                            <Button colored>GitHub</Button>
+                        </a>
+                        <a href="https://glacial-inlet-35669.herokuapp.com/"  rel="noopener noreferrer" target="_blank">
                         <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project</CardTitle>
-                    <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card>
-
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>React Project</CardTitle>
-                    <CardText>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>LiveDemo</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
