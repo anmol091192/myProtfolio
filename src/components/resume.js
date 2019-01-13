@@ -123,7 +123,10 @@ class Resume extends Component {
                             skill="Java"
                             progress={90}
                         />
+                         <hr style={{borderTop: '3px solid #e22947'}} />
 
+                        <h2>Download Resume</h2>
+                        <a href="../assests/Resume.pdf" download>Click to Download</a>
                     </Cell>
                 </Grid>
             </div>
@@ -131,4 +134,4 @@ class Resume extends Component {
     }
 }
 
-export default Resume;
+export default Resume;  
