@@ -89,15 +89,12 @@ class Projects extends Component {
                     <h5>Technologies using React, NextJS, NodeJS, Express, MongoDB, RabbitMQ, ES6 JavaScript, Materialize-CSS.</h5>
                     <p>
                         Trying to recreate all the functionalities similar to AirBnd using the above mentione d technologies.<br/>
-                        <li>NextJs is used to manage the server side renduring of individual pages, you can see the structure of the project by clicking on the github link.</li>
+                        <li>NextJS is used to manage the server side renduring of individual pages, you can see the structure of the project by clicking on the github link.</li>
                     </p>
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/anmol091192/Email-Notification-system"  rel="noopener noreferrer" target="_blank">
+                        <a href="https://github.com/anmol091192/airbnb_demo"  rel="noopener noreferrer" target="_blank">
                             <Button colored>GitHub</Button>
-                        </a>
-                        <a href="https://glacial-inlet-35669.herokuapp.com/"  rel="noopener noreferrer" target="_blank">
-                        <Button colored>LiveDemo</Button>
                         </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>

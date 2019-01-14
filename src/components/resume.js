@@ -12,7 +12,7 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src={require('../assests/anmol.jpg')}
                                 alt="avatar"
                                 style={{height: '200px'}}
                             />
@@ -21,7 +21,7 @@ class Resume extends Component {
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>
-                        Having Graduated in May 2018 from Texas A&M University Kingsville doing Masters in Computer Science, I have a keen interest in Web development technologies and am looking for roles like Front-End and Back-End development, and Full-Stack development positions. I have also worked on many personal projects apart from Industrial Experience using these web-based technologies. Also having done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow" I am also interested in Java related positions.
+                        Having Graduated in May 2018 from Texas A&M University Kingsville doing Masters in Computer Science, I have a keen interest in Web development technologies and am looking for roles like Front-End and Back-End development, and Full-Stack development positions. I have also worked on many personal projects apart from Industrial Experience which I have around 2 years using these web-based technologies. Also having done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow" I am also interested in Java related positions.
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
@@ -79,7 +79,7 @@ class Resume extends Component {
                         
                         />
                         <Experience 
-                            startYear="July 2014"
+                            startYear="Jan 2014"
                             endYear="Dec 2014"
                             jobName="Web Developer"
                             jobDescription={
@@ -126,7 +126,7 @@ class Resume extends Component {
                          <hr style={{borderTop: '3px solid #e22947'}} />
 
                         <h2>Download Resume</h2>
-                        <a href="../assests/Resume.pdf" download>Click to Download</a>
+                        <a href={require('../assests/Resume.pdf')} download>Click to Download</a>
                     </Cell>
                 </Grid>
             </div>

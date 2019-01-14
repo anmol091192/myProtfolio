@@ -8,7 +8,7 @@ class Landing extends Component {
                <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="https://dentalogica-practice.co.uk/wp-content/uploads/2017/05/avatar-male-300x300.png"
+                            src={require('../assests/anmol.jpg')}
                             alt="avatar"
                             className="avatar-img"
                         />
