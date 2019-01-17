@@ -86,14 +86,20 @@ class Projects extends Component {
                         AirBnb Prototype
                     </CardTitle>
                     <CardText>
-                    <h5>Technologies using React, NextJS, NodeJS, Express, MongoDB, RabbitMQ, ES6 JavaScript, Materialize-CSS.</h5>
+                    <h5>Technologies using Angular , NodeJS, Express, MongoDB, RabbitMQ, Redis.</h5>
                     <p>
-                        Trying to recreate all the functionalities similar to AirBnd using the above mentione d technologies.<br/>
-                        <li>NextJS is used to manage the server side renduring of individual pages, you can see the structure of the project by clicking on the github link.</li>
+                        About:<br/>
+                        <li>
+                            Developing a distributed 3-tier application using REST architecture to offer all functions of Airbnb
+                            for renting homes.
+                        </li>
+                        <li>
+                            Built RESTful services using NodeJS and RabbitMQ.
+                        </li>
                     </p>
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/anmol091192/airbnb_demo"  rel="noopener noreferrer" target="_blank">
+                        <a href="https://github.com/anmol091192/Airbnb_prototype"  rel="noopener noreferrer" target="_blank">
                             <Button colored>GitHub</Button>
                         </a>
                     </CardActions>
