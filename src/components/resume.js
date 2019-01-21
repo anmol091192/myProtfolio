@@ -10,11 +10,10 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Cell col={4}>
-                        <div style={{textAlign: 'center'}}>
+                        <div style={{textAlign: 'center'}} className="circular--portrait">
                             <img 
                                 src={require('../assests/anmol2.png')}
                                 alt="avatar"
-                                className="circular--square"
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Anmol Khandekar</h2>

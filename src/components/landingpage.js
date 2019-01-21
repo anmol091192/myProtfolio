@@ -7,12 +7,12 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                <Grid className="landing-grid">
                     <Cell col={12}>
+                    <div className="circular--portrait" style={{marginTop:'3%'}}>
                         <img 
                             src={require('../assests/anmol2.png')}
                             alt="avatar"
-                            className="circular--square"
-                            style={{marginTop:'3%'}}
                         />
+                    </div>
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>

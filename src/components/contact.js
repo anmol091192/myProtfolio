@@ -8,11 +8,14 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Anmol Khandekar</h2>
+                        <div className="circular--portrait"> 
                         <img 
                             src={require('../assests/anmol2.png')}
                             alt="avatar"
-                            className="circular--square"
+                            
                         />
+                        </div>
+                       
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
