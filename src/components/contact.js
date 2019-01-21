@@ -9,9 +9,9 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Anmol Khandekar</h2>
                         <img 
-                            src={require('../assests/anmol.jpg')}
+                            src={require('../assests/anmol2.png')}
                             alt="avatar"
-                            style={{height: '250px'}}
+                            className="circular--square"
                         />
                     </Cell>
                     <Cell col={6}>

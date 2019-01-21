@@ -8,9 +8,10 @@ class Landing extends Component {
                <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src={require('../assests/anmol.jpg')}
+                            src={require('../assests/anmol2.png')}
                             alt="avatar"
-                            className="avatar-img"
+                            className="circular--square"
+                            style={{marginTop:'3%'}}
                         />
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>

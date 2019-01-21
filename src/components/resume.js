@@ -12,9 +12,9 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                                src={require('../assests/anmol.jpg')}
+                                src={require('../assests/anmol2.png')}
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                className="circular--square"
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Anmol Khandekar</h2>
