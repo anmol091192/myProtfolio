@@ -20,11 +20,11 @@ class Resume extends Component {
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>
-                        Having Graduated in May 2018 from Texas A&M University Kingsville doing Masters in Computer Science, I have a keen interest in Web development technologies and am looking for roles like Front-End and Back-End development, and Full-Stack development positions. I have also worked on many personal projects apart from Industrial Experience which I have around 2 years using these web-based technologies. Also having done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow" I am also interested in Java related positions.
+                        I am a software developer at Egen Solutions. I have done my masters in Computer Science from Texas A&M University- Kingsville.I have also worked on many personal projects apart from Industrial Experience which is around 2 years using web-based technologies like NodeJs ,React , Angular 4. I have also done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow".
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
-                        <p>201 Soth 4th Street, CA - 95112</p>
+                        <p>1511 Westminster Dr, IL - 60563</p>
                         <h5>Phone</h5>
                         <p>(646) 520-8122</p>
                         <h5>Email</h5>
@@ -32,6 +32,59 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
+
+                        <h2>Experience</h2>
+                        <Experience 
+                            startYear="August 2019"
+                            endYear="Present"
+                            jobName="Software Developer"
+                            jobDescription={
+                            <div>
+                            <h4>Grainger( Egen Solutions )</h4>
+                            <p>Technologies: React, Node, Express, HandleBars, Svelte.</p>
+                            <p>Working on migrating from single page application to a component based app using React, handlebars and jQuery.<br/>
+                            Working on middleware for rendering frontend which uses node and express.<br/>
+                            Working on Svelte to develop a debugging tool for Grainger.</p>
+                            </div>
+                            }
+                        
+                        />
+                        <Experience 
+                            startYear="May 2019"
+                            endYear="August 2019"
+                            jobName="Software Developer"
+                            jobDescription={
+                            <div>
+                            <h4>Tempus (Egen Solutions)</h4>
+                            <p>Technologies: React, React Native, Redux, NestJs</p>
+                            <p>Worked on creating frontend for making orders and viewing status of the order using react and redux.<br/>
+                            Worked on creating the frontend for mobile for same functionality as above using react native and redux.<br/>
+                            Worked on generating report based on the orders received using react and redux.<br/>
+                            Worked on creating new endpoints for retrieving specific data using NestJs.</p>
+                            </div>
+                            }
+                        
+                        />
+                        <Experience 
+                            startYear="March 2019"
+                            endYear="May 2019"
+                            jobName="Software Developer"
+                            jobDescription={
+                            <div>
+                            <h4>Egen Solutions</h4>
+                            <p>Technologies: ReactJS, Redux, NodeJS, Express, MongoDB, PostgreSQL, AWS, Docker, Kubernetes, Material-UI.</p>
+                            <p>Created Frontend using ReactJS, Redux and Material-UI.<br/>
+                            Worked on integrating the frontend and backend using Express/NodeJS and MongoDB.<br/>
+                            Used hls.js to live stream security camera footage on frontend.<br/>
+                            Created frontend to operate these security cameras.<br/>
+                            Developed the project from scratch including deciding the technology stack necessary for this type of project.<br/>
+                            Also worked on creating the backend and deploying it using Docker, Kubernetes, AWS.</p>
+                            </div>
+                            }
+                        
+                        />
+                        <hr style={{borderTop: '3px solid #e22947'}} />
+
                         <h2>Education</h2>
                         <Education 
                          startYear={2016}
@@ -56,38 +109,6 @@ class Resume extends Component {
                                <h6>Graduation Date: May 2014</h6>
                             </div>
                             }
-                        />
-                        <hr style={{borderTop: '3px solid #e22947'}} />
-
-                        <h2>Experience</h2>
-                        <Experience 
-                            startYear="Jan 2015"
-                            endYear="July 2015"
-                            jobName="Web Developer"
-                            jobDescription={
-                            <div>
-                            <h4>NearFox ( Zip Infosolutions Pvt )</h4>
-                            <p>Technologies: AWS, Google Cloud, WordPress, Php, python, Apache, Nginx.</p>
-                            <p>Created Cronjobs using shell scripting for server management.<br/>
-                            Migrated server form Apache to Nginx to increase responsiveness of the website under load.<br/>
-                            Made Web Crawlers using PHP and Python for information gathering from different news and event websites.</p>
-                            </div>
-                            }
-                        
-                        />
-                        <Experience 
-                            startYear="Jan 2014"
-                            endYear="Dec 2014"
-                            jobName="Web Developer"
-                            jobDescription={
-                            <div>
-                            <h4>Gyaat Inc.</h4>
-                            <p>Technologies: Bootstrap, JavaScript, MySQL, Linux, Apache, Php, Ajax.</p>
-                            <p>Built a website to provide educational information.<br/>
-                            Optimized database by eliminating redundancy.</p>
-                            </div>
-                            }
-                        
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
                         <h2>Skills</h2>
