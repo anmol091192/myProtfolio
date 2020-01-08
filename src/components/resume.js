@@ -24,7 +24,7 @@ class Resume extends Component {
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
-                        <p>1511 Westminster Dr, IL - 60563</p>
+                        <p>1511 Westminster Dr, Naperville, IL - 60563</p>
                         <h5>Phone</h5>
                         <p>(646) 520-8122</p>
                         <h5>Email</h5>
