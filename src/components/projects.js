@@ -1,5 +1,5 @@
 import React, { Component  } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle,CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle,CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -9,6 +9,43 @@ class Projects extends Component {
 
     toggleCategories() {
         if(this.state.activeTab === 0){
+            return(
+                <div className="projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black'}}>
+                        Github Job protal
+                    </CardTitle>
+                    <CardText>
+                    <h5>Technologies using Github job Api, React hooks: useContext,useReducer.</h5>
+                    <p>
+                        About:<br/>
+                        <li>
+                           Developed a UI for searching jobs using React and Github Jobs Api.
+                        </li>
+                        <br/>
+                        <p>
+                            Details about how the app was deployed are give below:<br/>
+                            <li>Ability to seacrh jobs using location, title, company, skill, full-time role.</li>
+                            <li>Ability to default the location to the user's current geolocation.</li>
+                            <li>Infinite scroll</li>
+                            <li>Light and Dark theme toggle implemented.</li>
+                            <li>Responsive design that works for mobile and browser.</li>
+                        </p>
+                    </p>
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/anmol091192/githubjobportal"  rel="noopener noreferrer" target="_blank">
+                            <Button colored>GitHub</Button>
+                        </a>
+                        <a href="https://awesome-jepsen-4193f3.netlify.app/"  rel="noopener noreferrer" target="_blank">
+                            <Button colored>LiveDemo</Button>
+                        </a>
+                    </CardActions>
+                </Card>
+                </div>
+            )
+        }
+        else if(this.state.activeTab === 1){
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -40,7 +77,7 @@ class Projects extends Component {
                 </div>
             )
         }
-        else if(this.state.activeTab === 1){
+        else if(this.state.activeTab === 2){
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -68,7 +105,7 @@ class Projects extends Component {
                 </div>
                 
             )
-        } else if(this.state.activeTab === 2){
+        } else if(this.state.activeTab === 3){
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -108,6 +145,7 @@ class Projects extends Component {
         return(
             <div classname="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab>Github Jobs Portal</Tab>
                     <Tab>React Apollo GraphQl Project</Tab>
                     <Tab>Email Feedback Application</Tab>
                     <Tab>Twitter Content Lab</Tab>

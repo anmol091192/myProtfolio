@@ -16,8 +16,8 @@ class Resume extends Component {
                                 alt="avatar"
                             />
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Anmol Khandekar</h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                            <h2 style={{paddingTop: '2em'}}>Anmol Khandekar</h2>
+                            <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>
                         I am a software developer at Egen Solutions. I have done my masters in Computer Science from Texas A&M University- Kingsville.I have also worked on many personal projects apart from Industrial Experience which is around 2 years using web-based technologies like NodeJs ,React , Angular 4. I have also done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow".
@@ -40,11 +40,11 @@ class Resume extends Component {
                             jobName="Software Developer"
                             jobDescription={
                             <div>
-                            <h4>Grainger( Egen Solutions )</h4>
-                            <p>Technologies: React, Node, Express, HandleBars, Svelte.</p>
-                            <p>Working on migrating from single page application to a component based app using React, handlebars and jQuery.<br/>
-                            Working on middleware for rendering frontend which uses node and express.<br/>
-                            Working on Svelte to develop a debugging tool for Grainger.</p>
+                                <h4>Grainger</h4>
+                                <p>Technologies: React, Node, Express, HandleBars, Svelte.</p>
+                                <p>Working on migrating from single page application to a component based app using React, handlebars and jQuery.<br/>
+                                Working on middleware for rendering frontend which uses node and express.<br/>
+                                Working on Svelte to develop a debugging tool for Grainger.</p>
                             </div>
                             }
                         
@@ -55,12 +55,12 @@ class Resume extends Component {
                             jobName="Software Developer"
                             jobDescription={
                             <div>
-                            <h4>Tempus (Egen Solutions)</h4>
-                            <p>Technologies: React, React Native, Redux, NestJs</p>
-                            <p>Worked on creating frontend for making orders and viewing status of the order using react and redux.<br/>
-                            Worked on creating the frontend for mobile for same functionality as above using react native and redux.<br/>
-                            Worked on generating report based on the orders received using react and redux.<br/>
-                            Worked on creating new endpoints for retrieving specific data using NestJs.</p>
+                                <h4>Tempus</h4>
+                                <p>Technologies: React, React Native, Redux, NestJs</p>
+                                <p>Worked on creating frontend for making orders and viewing status of the order using react and redux.<br/>
+                                Worked on creating the frontend for mobile for same functionality as above using react native and redux.<br/>
+                                Worked on generating report based on the orders received using react and redux.<br/>
+                                Worked on creating new endpoints for retrieving specific data using NestJs.</p>
                             </div>
                             }
                         
@@ -71,17 +71,16 @@ class Resume extends Component {
                             jobName="Software Developer"
                             jobDescription={
                             <div>
-                            <h4>Egen Solutions</h4>
-                            <p>Technologies: ReactJS, Redux, NodeJS, Express, MongoDB, PostgreSQL, AWS, Docker, Kubernetes, Material-UI.</p>
-                            <p>Created Frontend using ReactJS, Redux and Material-UI.<br/>
-                            Worked on integrating the frontend and backend using Express/NodeJS and MongoDB.<br/>
-                            Used hls.js to live stream security camera footage on frontend.<br/>
-                            Created frontend to operate these security cameras.<br/>
-                            Developed the project from scratch including deciding the technology stack necessary for this type of project.<br/>
-                            Also worked on creating the backend and deploying it using Docker, Kubernetes, AWS.</p>
+                                <h4>Egen Solutions</h4>
+                                <p>Technologies: ReactJS, Redux, NodeJS, Express, MongoDB, PostgreSQL, AWS, Docker, Kubernetes, Material-UI.</p>
+                                <p>Created Frontend using ReactJS, Redux and Material-UI.<br/>
+                                Worked on integrating the frontend and backend using Express/NodeJS and MongoDB.<br/>
+                                Used hls.js to live stream security camera footage on frontend.<br/>
+                                Created frontend to operate these security cameras.<br/>
+                                Developed the project from scratch including deciding the technology stack necessary for this type of project.<br/>
+                                Also worked on creating the backend and deploying it using Docker, Kubernetes, AWS.</p>
                             </div>
                             }
-                        
                         />
                         <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -119,7 +118,7 @@ class Resume extends Component {
                         />
                         <Skills 
                             skill="HTML/CSS"
-                            progress={100}
+                            progress={90}
                         />
                         <Skills 
                             skill="NodeJS"
@@ -127,19 +126,19 @@ class Resume extends Component {
                         />
                         <Skills 
                             skill="React"
-                            progress={60}
+                            progress={70}
                         />
                         <Skills 
-                            skill="Angular4"
-                            progress={50}
+                            skill="GraphQL"
+                            progress={40}
                         />
                         <Skills 
-                            skill="NextJS"
-                            progress={50}
+                            skill="VueJS"
+                            progress={40}
                         />
                         <Skills 
-                            skill="Java"
-                            progress={90}
+                            skill="Svelte"
+                            progress={40}
                         />
                          <hr style={{borderTop: '3px solid #e22947'}} />
 
