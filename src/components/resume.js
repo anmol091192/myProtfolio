@@ -20,7 +20,7 @@ class Resume extends Component {
                             <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <p>
-                        I am a software developer at Egen Solutions. I have done my masters in Computer Science from Texas A&M University- Kingsville.I have also worked on many personal projects apart from Industrial Experience which is around 2 years using web-based technologies like NodeJs ,React , Angular 4. I have also done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow".
+                        I am a software developer working at Grainger. I have done my masters in Computer Science from Texas A&M University- Kingsville.I have also worked on many personal projects apart from Industrial Experience which is around 2 years using web-based technologies like NodeJs ,React , Angular 4. I have also done a thesis related to Java called "Extending SOOT in Visualization of Control Flow Graphs along with Data Flow".
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                         <h5>Address</h5>
