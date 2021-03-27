@@ -13,6 +13,35 @@ class Projects extends Component {
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black'}}>
+                        Vue JS project
+                    </CardTitle>
+                    <CardText>
+                    <h5>Technologies: VueJS, Vue Router and Vuetify.</h5>
+                    <p>
+                        Details about how the app was deployed are give below:<br/>
+                        <li>Used Vue cli to create the project.</li>
+                        <li>Vue Router is used to navigate between pages.</li>
+                        <li>Vuetify is used to design the website.</li>
+                        <li>Emits were used to transfer data between components.</li>
+                    </p>
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/anmol091192/vue-polygon-project"  rel="noopener noreferrer" target="_blank">
+                            <Button colored>GitHub</Button>
+                        </a>
+                        <a href="https://dreamy-lichterman-6effa1.netlify.app/"  rel="noopener noreferrer" target="_blank">
+                            <Button colored>LiveDemo</Button>
+                        </a>
+                    </CardActions>
+                </Card>
+                </div>
+            )
+        }
+        else if(this.state.activeTab === 1){
+            return(
+                <div className="projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black'}}>
                         Github Job protal
                     </CardTitle>
                     <CardText>
@@ -45,7 +74,7 @@ class Projects extends Component {
                 </div>
             )
         }
-        else if(this.state.activeTab === 1){
+        else if(this.state.activeTab === 2){
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -77,7 +106,7 @@ class Projects extends Component {
                 </div>
             )
         }
-        else if(this.state.activeTab === 2){
+        else if(this.state.activeTab === 3){
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -105,7 +134,7 @@ class Projects extends Component {
                 </div>
                 
             )
-        } else if(this.state.activeTab === 3){
+        } else if(this.state.activeTab === 4){
             return(
                 <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -145,6 +174,7 @@ class Projects extends Component {
         return(
             <div classname="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab>Vue JS project</Tab>
                     <Tab>Github Jobs Portal</Tab>
                     <Tab>React Apollo GraphQl Project</Tab>
                     <Tab>Email Feedback Application</Tab>
